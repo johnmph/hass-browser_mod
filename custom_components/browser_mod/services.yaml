@@ -103,6 +103,12 @@ popup:
       description: Action to perform when the right button is pressed
       selector:
         object:
+    right_button_close:
+      name: Right button closes popup
+      description: Enable/disable popup closing when the right action button is pressed
+      default: true
+      selector:
+        boolean:
     left_button:
       name: Left button
       description: Text of the left button
@@ -113,6 +119,12 @@ popup:
       description: Action to perform when left button is pressed
       selector:
         object:
+    left_button_close:
+      name: Left button closes popup
+      description: Enable/disable popup closing when the left action button is pressed
+      default: true
+      selector:
+        boolean:
     dismissable:
       name: User dismissable
       description: Whether the popup can be closed by the user without action
